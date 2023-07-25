@@ -1,0 +1,106 @@
+.staff-notification{
+    padding-left: 15%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 5%;
+    background: white;
+    min-height: 100vh;
+}
+
+  .compose-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 20;
+    background-color: white;
+    color: black;
+    padding: 50px 50px;
+    bottom: 0;
+    right: 1%;
+    position: absolute;
+    border-radius: 5px;
+    border: solid 1px black;
+    animation-name: animation;
+    animation-duration: .6s;
+
+    z-index: 2;
+   
+
+  }
+  @keyframes animation {
+    0%{
+      opacity: 0;
+      transform:  rotate(30deg) translateX(10px)  translatey(40px)  translateX(10px);
+    }
+    100%{
+     transform:  rotate(30deg) translateX(10px)  translatey(40px)  translateX(10px);
+    }
+ }
+ .close-noti{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 3%;
+ }
+ .notification{
+  display: flex;
+    flex-direction: column;
+ }
+ .staff-compose{
+  float: left;
+  margin-top: 20px;
+ }
+ .staff-compose .MuiButton-startIcon{
+  color: black;
+ }
+ .staff-compose span{
+  color: black;
+  text-transform: none;
+ }
+ .inbox-noti{
+  margin-top: 20px;
+ }
+.sent-noti{
+  margin-top: 20px;
+}
+
+.staff-inbox,.staff-sent{
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+.table-staff-noti {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f4f4f459;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table-staff-noti th,
+.table-staff-noti td {
+  padding: 10px;
+  border: 1px solid #0900001f;
+  font-weight: 700;
+}
+.table-staff-noti tbody tr:hover{
+  background-color: #d2d2d2; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s; 
+}
+.table-staff-noti th {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+
+.table-staff-noti td textarea {
+  width: 100%;
+  height: 100%;
+  border: none;
+  resize: none;
+  background-color: transparent;
+  overflow: auto;
+  color: black;
+  font-weight: 500;
+}

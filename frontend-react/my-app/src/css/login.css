@@ -1,0 +1,81 @@
+ .login{
+    width: 100%;
+    min-height: 100vh;
+    background: #cdcdcd63;
+    padding-top: 105px;
+ }
+.box{
+    padding: 3% 10%;
+}
+.box img{
+    width: 100%;
+    background-size: cover;
+    border-radius: 0px 60px 0px 60px;
+    border: 1px solid #cbcb94d1;
+}
+  
+ .formLogin{
+    width: 98%;
+    height: 98%;
+    position: relative;
+    inset: 4px;
+    padding: 20px 20px;
+    text-align: center;
+    z-index: 2;
+    background-color: white;
+    border-radius: 0px 60px 0px 60px;
+    height: auto;
+ }
+
+
+.formLogin h1{
+    margin: 40px 0;
+    color: black;
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    
+    
+}
+.formLogin .login-username{
+    padding: 20px 0;
+}
+.formLogin label{
+    padding: 20px 0;
+}
+.formLogin .login-password{
+    padding: 20px 0;
+}
+.button-forgot{
+    padding: 20px 0;
+}
+.button-forgot a{
+    text-decoration: none;
+    color: #0000008e;
+}
+.button-forgot a:hover{
+    color: black;
+}
+.formLogin .button-login{
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: black;
+    font-size: 25px;
+    color:  #d3c809;
+    font-weight: 700;
+    border-radius: 8px;
+}
+.formLogin .button-login:hover{
+    background-color: #a67d9cbd;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+
+
+
+
+

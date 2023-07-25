@@ -1,0 +1,81 @@
+.HomeCustomer{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('/public/assets/images/backGroundCustoemer.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content-customer h2{
+  
+    font-size: 60px;
+    letter-spacing: 10px;
+    color: white;
+    font-weight: 600;
+    line-height: 1.2;
+
+}
+.content-customer h3{
+    font-size: 60px;
+   
+    color:  #babc00;
+    font-weight: 600;
+    
+    line-height: 1.2;
+
+   
+}
+
+.content-customer{
+    width: 70%;
+ 
+      top: 180px;
+    left: 120px;
+      position: absolute;
+}
+.content-customer a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.content-customer p{
+    color: #8a1523;
+    font-size: 10px;
+}
+.grid-container {
+    display: flex;
+
+    transition: justify-content 0.3s;
+  
+}
+
+.grid-item {
+  transition: transform 0.3s;
+  display: flex;
+  position: relative;
+  
+}
+.grid-item:hover {
+    transform: translateY(-10px) scale(1.1);
+
+  
+}
+.grid-item:hover p{
+   display: block;
+   color: white
+   
+   ;
+   font-size: 0.8em;
+     width: 150px;
+
+}
+.grid-item p{
+    
+    display: none;
+    width: 150px;
+   
+    text-align: center;
+}
+
+

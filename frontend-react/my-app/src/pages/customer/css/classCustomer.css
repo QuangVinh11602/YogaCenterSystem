@@ -1,0 +1,49 @@
+.classCustomer{
+    width: 100%;
+    min-height: 100vh;
+    background: #999b9a;
+    padding: 70px;
+}
+.classCustomer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.classCustomer-title h2{
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 3.5em;
+}
+.course-box {
+    background-color: #a4af25;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 22px;
+    box-shadow: -5px 5px 13px 0px #37401a7a;
+}
+.course-box h2{
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: inherit;
+    margin-top: 2%;
+    color: white;
+}
+.course-box h6{
+    color: #555050c2;
+    padding-right: 4%;
+    font-size: 11px;
+    margin-top: 2%;
+    padding-left: 4%;
+    text-align: justify;
+}
+.course-box h5{
+    font-size: 1.3rem;
+    position: absolute;
+    font-weight: 600;
+    bottom: 10%;
+    color: #000000;
+}
